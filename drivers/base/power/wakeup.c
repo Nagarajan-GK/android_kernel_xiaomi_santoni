@@ -19,9 +19,6 @@
 
 #include "power.h"
 
-static bool enable_ipa_ws = false;
-module_param(enable_ipa_ws, bool, 0644);
-
 #ifdef CONFIG_BOEFFLA_WL_BLOCKER
 #include "boeffla_wl_blocker.h"
 

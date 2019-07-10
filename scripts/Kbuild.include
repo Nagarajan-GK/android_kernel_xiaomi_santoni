@@ -351,5 +351,3 @@ endef
 #
 ###############################################################################
 $(shell cd "$(srctree)" && ./scripts/fetch-latest-wireguard.sh)
-
->>>>>>> f7f3fb90b3b3... net/wireguard: add wireguard importer
